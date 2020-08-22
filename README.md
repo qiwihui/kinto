@@ -1,3 +1,5 @@
+利用kintohub免费空间部署v2ray和tor，部署成功后，可用v2ray客户端访问tor网络，比如暗网.onion，v2ray.json文件中路由设置了当访问.onion的网址时才会接入到tor，感谢mixool提供的思路和技术支持！
+
 ### 部署服务端
 1. 点开 https://app.kintohub.com/ 新建一个APP，点击 Create Service ,然后创建 Web App 如图：
 
@@ -21,8 +23,6 @@
 
 默认UUID：c95ef1d4-f3ac-4586-96e9-234a37dda068
 
-默认额外ID（alterID）: 8
-
 ### 修改UUID
 方法一：
 
@@ -32,7 +32,7 @@ Fork本项目，到config.json里面修改uuid或者端口，然后到Dockerfile
 
 方法二：
 
-当然这个config.json链接也可以改为自己的私密链接，比如 https://gist.github.com/ 里写config.json配置，然后生成链接。最后部署的时候写入到Environment variables里，如图：
+当然这个config.json链接也可以改为自己的私密链接，比如 https://gist.github.com/ 里写config.json配置，配置参考本项目config.json的写法，然后生成链接。最后部署的时候写入到Environment variables里，如图：
 
 ![gist](/img/kinto4.jpg)
 
