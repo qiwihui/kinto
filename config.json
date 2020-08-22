@@ -2,8 +2,8 @@
     "inbounds": 
     [
         {
-            "port": 8888,"listen":"0.0.0.0","protocol": "vmess",
-            "settings": {"clients": [{"id": "c95ef1d4-f3ac-4586-96e9-234a37dda068"}]},
+            "port": 443,"listen":"0.0.0.0","protocol": "vmess",
+            "settings": {"clients": [{"id": "865d982b-dc12-4ac6-b95d-11a4f1b1bfd4"}]},
             "streamSettings": {"network": "ws"}
         }
     ],
