@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV CONFIG=https://raw.githubusercontent.com/yeahwu/kinto/master/config.json
+ENV CONFIG=https://raw.githubusercontent.com/qiwihui/kinto/master/config.json
 
 RUN apk update && apk add --no-cache unzip tor ca-certificates && \
     wget -c https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip && \
