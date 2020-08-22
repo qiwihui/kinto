@@ -2,9 +2,9 @@
     "inbounds": 
     [
         {
-            "port": 443,"listen":"0.0.0.0","protocol": "vmess",
-            "settings": {"clients": [{"id": "865d982b-dc12-4ac6-b95d-11a4f1b1bfd4"}]},
-            "streamSettings": {"network": "ws"}
+            "port": 1443,"listen":"0.0.0.0","protocol": "vmess",
+            "settings": {"clients": [{"id": "865d982b-dc12-4ac6-b95d-11a4f1b1bfd4", "level": 1, "alterId": 32}]},
+            "streamSettings": {"network": "ws", "security": "none"}
         }
     ],
 
