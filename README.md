@@ -19,6 +19,10 @@
 
 ![v2ray](/img/kinto3.jpg)
 
+默认UUID：c95ef1d4-f3ac-4586-96e9-234a37dda068
+
+默认额外ID（alterID）: 8
+
 ### 修改UUID
 方法一：
 
@@ -28,6 +32,9 @@ Fork本项目，到config.json里面修改uuid或者端口，然后到Dockerfile
 
 方法二：
 
-当然这个config.json链接也可以改为自己的私密链接，比如 https://gist.github.com/ 里写config.json文件，然后生成链接。最后部署的时候写入到Environment variables里，如图：
+当然这个config.json链接也可以改为自己的私密链接，比如 https://gist.github.com/ 里写config.json配置，然后生成链接。最后部署的时候写入到Environment variables里，如图：
 
 ![gist](/img/kinto4.jpg)
+
+最后，打钱：
+https://yeahwu.com/donation.html
